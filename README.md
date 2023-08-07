@@ -76,6 +76,6 @@ TRansitive dependencies: for e.g.this project have dependencies and Parcel have 
   - To configure the browser support we have to configure the package.jason which browser should supports 
   - Create script for Development to run the project in package.json {"start": "parcel index.html"} npm start
    from production {"build": "parcel build index.html"} npm build start
-  -JSX---
-  
+  - JSX---
+  - if we have to give attribute we have give in camel case like <h1 calssName="" tabIndex=""><h1>
 

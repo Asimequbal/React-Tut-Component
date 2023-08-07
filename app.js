@@ -1,8 +1,20 @@
 import React from "react";
-import { render } from "react-dom";
-import  ReactDOM, { createRoot }  from  "react-dom/client";
+import  ReactDOM from  "react-dom/client";
 
-// const heading = React.createElement("h1",{id:"new"}, "My Name is asim");
-// const root = ReactDOM.createRoot(document.getElementById("root"));
-// root.render(heading);
-// console.log(heading)
+
+
+// component inside a element
+const HeadingComponent = () => (
+    <div id="container">
+       
+        <h1 className="camelcase">htis sjfsdgn</h1>
+    </div>
+);
+const Title =  (
+    <h1 className="he">My Name is asim using JSX
+    <HeadingComponent />
+    </h1>
+    
+);
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render( Title);
